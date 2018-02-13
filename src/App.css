@@ -1,0 +1,33 @@
+.container {
+  padding: 50px 10px;
+}
+
+input {
+  height: 34px;
+  flex: auto;
+  margin-right: 5px;
+}
+
+button.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+}
+
+button.list-group-item .glyphicon {
+  align-self: center;
+}
+
+.glyphicon:hover {
+  color: #f47a42;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
