@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row } from 'react-bootstrap';
 import RSSParser from 'rss-parser';
-import logo from './logo.svg';
 import './App.css';
 
 import Main from './components/Main'
