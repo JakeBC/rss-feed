@@ -3,10 +3,10 @@ import { Grid, Row } from 'react-bootstrap';
 import RSSParser from 'rss-parser';
 import './App.css';
 
-import Main from './components/Main'
-import Sidebar from './components/Sidebar'
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 
-const CORS_PROXY = "https://cors-anywhere.herokuapp.com/"
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 
 class App extends Component {
     constructor(props) {
@@ -19,7 +19,7 @@ class App extends Component {
                 'http://www.rss-specifications.com/blog-feed.xml',
                 'http://feeds.bbci.co.uk/news/rss.xml?edition=uk'
             ]
-        }
+        };
         this.handleSearchClicked = this.handleSearchClick.bind(this);
         this.handleFeedClicked = this.handleFeedClick.bind(this);
         this.handleDeleteClicked = this.handleDeleteClick.bind(this);
@@ -80,7 +80,7 @@ class App extends Component {
                     </Row>
                 </Grid>
             </div>
-        )
+        );
     }
 }
 
